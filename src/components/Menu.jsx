@@ -42,7 +42,7 @@ const Menu = () => {
             return(
                 <div className="text-center items-center bg-[#f0eded] rounded-md">
             <a
-                class="relative block rounded-xl p-8 shadow hover:shadow-xl"
+                class="relative block rounded-xl p-8 hover:shadow-xl"
                 href=""
             >
                 <span
@@ -72,14 +72,14 @@ const Menu = () => {
 
 
     return (
-        <>
+        <section id="menu">
         <div className="text-md md:text-2xl py-4 font-semibold"> 
         <h3>Pick From Our Special Burger Menu</h3>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-4 gap-3 py-8">
             {listItems}
         </div>
-        </>
+        </section>
     )
 }
 

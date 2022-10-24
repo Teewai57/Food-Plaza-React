@@ -4,7 +4,7 @@ import Burger from "../assets/burger.png"
 
 const Header = () => {
     return (
-        <div>
+        <section id="home">
             <div className="grid md:grid-cols-2 grid-cols-1 items-center p-2">
                 <div className="mb-3 self-center space-y-3 md:space-y-7 mt-[1.5rem] md:mt-[4rem]">
                     <p className="text-md md:text-md font-medium md:font-bold">Expensive But The Best</p>
@@ -22,7 +22,7 @@ const Header = () => {
                     <img src={Burger} alt="Burger-image" />
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 
