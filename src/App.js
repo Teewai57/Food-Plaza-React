@@ -1,5 +1,6 @@
 import React from 'react'
 import Header from './components/Header'
+import HealthyTips from './components/HealthyTips'
 import Menu from './components/Menu'
 import Nav from './components/Nav'
 
@@ -9,6 +10,7 @@ const App = () => {
       <Nav />
       <Header />
       <Menu />
+      <HealthyTips />
     </div>
   )
 }

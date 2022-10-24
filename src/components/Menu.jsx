@@ -73,7 +73,10 @@ const Menu = () => {
 
     return (
         <>
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-3 py-10">
+        <div className="text-md md:text-2xl py-4 font-semibold"> 
+        <h3>Pick From Our Special Burger Menu</h3>
+        </div>
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-3 py-8">
             {listItems}
         </div>
         </>
