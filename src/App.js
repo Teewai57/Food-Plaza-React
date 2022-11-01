@@ -10,7 +10,7 @@ import Nav from './components/Nav'
 const App = () => {
   return (
     <>
-    <div className="max-w-7xl mx-auto items-center">
+    <div className="max-w-7xl mx-auto items-center p-3">
       <Nav />
       <Header />
       <About />

@@ -26,7 +26,7 @@ const Nav = () => {
           <a href="#menu" class="hover:font-bold focus:text-green transition block text-[1.1rem] font-[580] py-2 pr-4 pl-3 text-[gray] rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Food Menu</a>
         </li>
         <li>
-          <a href="#footer" class="hover:font-bold focus:text-green transition block text-[1.1rem] font-[580] py-2 pr-4 pl-3 text-[gray] rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact</a>
+          <a href="#footer" class="hidden  hover:font-bold focus:text-green transition md:block text-[1.1rem] font-[580] py-2 pr-4 pl-3 text-[gray] rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact</a>
         </li>
       </ul>
     </div>
