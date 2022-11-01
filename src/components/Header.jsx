@@ -13,9 +13,8 @@ const Header = () => {
                         easy homemade beef burger recipe gives you delicious
                         patties, packed with onions and herbs and extra flower.
                     </p>
-                    <div className="md:space-x-3 space-x-1">
-                        <button className="bg-green transition hover:bg-white hover:text-green hover:border-green hover:border rounded-md text-white font-medium px-4 py-1 md:px-8 md:py-2">Get Started</button>
-                        <button className="bg-white transition hover:bg-green hover:text-white hover:border-none rounded-md border font-medium border-green px-4 py-1 md:px-6 md:py-2">Explore Our Menu</button>
+                    <div className="">
+                        <a href='#menu' className="bg-green transition hover:bg-white hover:text-green hover:border-green hover:border rounded-md text-white font-medium px-4 py-1 md:px-8 md:py-2">Explore Our Menu</a>
                     </div>
                 </div>
                 <div className="self-center w-[100%] ">

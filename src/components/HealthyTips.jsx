@@ -8,11 +8,11 @@ const HealthyTips = () => {
 
     return (
         <div>
-            <div className="py-4">
+            <div className="py-4 mt-4">
                 <p className="text-md font-medium">Healthy Tips</p>
                 <h3 className="text-md md:text-2xl font-semibold">Eat Healthy</h3>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-3 py-8">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-3 py-4">
                 <div className="text-center items-center bg-[#f0eded] rounded-md">
                     <a
                         class=" block rounded-xl p-8 shadow hover:shadow-xl"

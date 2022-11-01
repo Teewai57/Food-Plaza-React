@@ -2,15 +2,15 @@ import React from 'react'
 
 const About = () => {
   return (
-    <section id="about" class="bg-[#f0eded] text-black">
+    <section id="about" class="bg-[#f0eded] text-black my-3">
     <div class="max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
       <div class="max-w-xl">
         <h2 class="text-3xl font-bold sm:text-4xl">What makes us special</h2>
   
         <p class="mt-4 text-gray-300">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
-          dolores iure fugit totam iste obcaecati. Consequatur ipsa quod ipsum
-          sequi culpa delectus, cumque id tenetur quibusdam, quos fuga minima.
+        The classic burger is an all time BBQ favourite! This super
+                        easy homemade beef burger recipe gives you delicious
+                        patties, packed with onions and herbs and extra flower.
         </p>
       </div>
   

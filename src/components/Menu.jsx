@@ -73,10 +73,10 @@ const Menu = () => {
 
     return (
         <section id="menu">
-        <div className="text-md md:text-2xl py-4 font-semibold"> 
+        <div className="text-md md:text-2xl py-2 font-semibold mt-4" > 
         <h3>Pick From Our Special Burger Menu</h3>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-3 py-8">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-3 py-4">
             {listItems}
         </div>
         </section>
